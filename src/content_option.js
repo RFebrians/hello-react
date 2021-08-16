@@ -91,8 +91,8 @@ const dataportfolio = [{
     },
     {
         img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
-        desctiption: "React Patterns",
-        link: "../#",
+        desctiption: "Create React App",
+        link: "../post3",
     },
     {
         img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
