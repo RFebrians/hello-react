@@ -34,7 +34,21 @@ export default function Post4() {
         <p>Pada React kita dapat menggunakan beberapa Styling untuk Components , diantaranya adalah CSS , SCSS atau Styled Components dari Libraries untuk React .</p>
         <p>React menyediakan beberapa Hooks bawaan seperti useState.
         Anda dapat membuat Hooks sendiri untuk menggunakan ulang stateful behavior antara komponen yang berbeda.</p>
-        <MDEditor.Markdown source="Hello Markdown! `Hi!`" />
+        <MDEditor.Markdown source="`image code`" />
+        <p>Tanpa Styling , Button kita akan secara default seperti ini , mari kita buat seperti yang disebelah kanan .</p>
+        <br></br>
+        <h3>CSS Stylesheet </h3>
+        <p>Dalam pembuatan Website , biasanya digunakan CSS </p>
+        <MDEditor.Markdown source="`image code`" />
+        <h3>Styled Components </h3>
+        <br></br>
+        </div>
+        <div className="ab_block">
+        <p>Styled Components merupakan Library untuk React untuk membuat Style pada Components dengan kombinasi CSS dan Javascript. </p>
+        <p>Install Styled Components pada terminal</p>
+        <MDEditor.Markdown source="`$ npm install styled-components`" />
+        <p> Setelah itu kita buat seperti berikut </p>
+        <MDEditor.Markdown source="`image code`" />
         </div>
     </HelmetProvider>
 

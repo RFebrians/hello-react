@@ -34,7 +34,6 @@ export default function Post() {
             <hr className="t_border my-2 ml-0 text-left" />
           </Col>
         </Row>
-
         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">{dataabout.title}</h3>
