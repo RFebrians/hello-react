@@ -50,6 +50,7 @@ export default function Post4() {
         <p> Setelah itu kita buat seperti berikut </p>
         <MDEditor.Markdown source="`image code`" />
         </div>
+        
     </HelmetProvider>
 
   );
