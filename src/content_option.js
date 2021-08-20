@@ -82,17 +82,27 @@ const dataportfolio = [
   {
     img:
       "https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+<<<<<<< HEAD
     desctiption: "2. Styling",
+=======
+    desctiption: "2. Fundamental",
+>>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
     link: "../post3"
   },
   {
     img: "https://miro.medium.com/max/2000/1*-Ijet6kVJqGgul6adezDLQ.png",
+<<<<<<< HEAD
     desctiption: "3. Props",
     link: "../post4"
+=======
+    desctiption: "Hooks",
+    link: "../post3"
+>>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
   },
   {
     img:
       "https://images.unsplash.com/photo-1526498460520-4c246339dccb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+<<<<<<< HEAD
     desctiption: "4. Hooks ",
     link: "../post5"
   },
@@ -105,36 +115,74 @@ const dataportfolio = [
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
     desctiption: "6. Load Data",
     link: "../post7"
+=======
+    desctiption: "Advanced Hooks ",
+    link: "../post3"
+  },
+  {
+    img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+    desctiption: "Create React App",
+    link: "../post3"
+  },
+  {
+    img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+    desctiption: "React Performance",
+    link: "#"
+>>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
   },
 
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+<<<<<<< HEAD
     desctiption: "Soon...",
+=======
+    desctiption: "Testing React Apps",
+>>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
     link: "#"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+<<<<<<< HEAD
     desctiption: "Soon...",
+=======
+    desctiption: "React Suspense",
+>>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
     link: "#"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+<<<<<<< HEAD
     desctiption: "Soon...",
+=======
+    desctiption: "Build an Epic React Apps",
+>>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
     link: "#"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+<<<<<<< HEAD
     desctiption: "Soon...",
+=======
+    desctiption: "React-Native Handbook",
+>>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
     link: "#"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+<<<<<<< HEAD
     desctiption: "Soon...",
+=======
+    desctiption: "Glosarium",
+>>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
     link: "#"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+<<<<<<< HEAD
     desctiption: "Soon...",
+=======
+    desctiption: "Credits",
+>>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
     link: "#"
   }
 ];
