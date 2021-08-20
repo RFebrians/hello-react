@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import MDEditor from "@uiw/react-md-editor";
+import ReactEmbedGist from "react-embed-gist";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import {
@@ -125,6 +126,28 @@ export default function Post2() {
           Selanjutnya buat Function bernama MyButtonComponent . (Note Function
           biasanya diawali huruf kapital)
         </p>
+        <p> Berikut adalah contoh Component MyButtonComponent </p>
+        <ReactEmbedGist
+          gist="RFebrians/3cd65295ae4653e50863268682b9b5c0"
+          file="MyButtonComponent.js"
+        />
+        <blockquote> Penjabaran singkat </blockquote>
+        <li> baris pertama merupakan fungsi agar jsx bekerja </li>
+        <li> baris 3-5 merupakan bagian render Button </li>
+        <li> baris 7 ekspor Button untuk digunakan pada component lain </li>
+      </div>
+      <div className="ab_block">
+        <h3> Menggunakan Component Button pada Component Lain</h3>
+        <ReactEmbedGist
+          gist="RFebrians/3cd65295ae4653e50863268682b9b5c0"
+          file="MyPage.js"
+        />
+        <li>
+          {" "}
+          Gunakan import MyButtonComponent from "./MyButtonComponent" untuk
+          men-impor{" "}
+        </li>
+        <li> pasang MyButtonComponent pada MyPage </li>
       </div>
     </HelmetProvider>
   );
