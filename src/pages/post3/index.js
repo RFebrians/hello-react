@@ -34,50 +34,23 @@ export default function Post3() {
           untuk React .
         </h4>
         <br></br>
-<<<<<<< HEAD
-        <blockquote> Mari kita buat button seperti gambar berikut </blockquote>
-        <p>image</p>
-=======
->>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
         <h2>Metode 1 CSS</h2>
         <div>
           <ReactEmbedGist
             gist="RFebrians/41d0155c41cb222ec00ed668558ab7d1"
-<<<<<<< HEAD
-            file="null"
-=======
             file="MyButton.js"
->>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
           />
         </div>
         <ReactEmbedGist
           gist="RFebrians/41d0155c41cb222ec00ed668558ab7d1"
-<<<<<<< HEAD
-          file="null"
-        />
-        <p>Dari kesimpulan code diatas </p>
-        <li> Untuk menghubungkan style pada CSS diperlukan props className yang berada pada file style.css </li>
-=======
           file="styles.css"
         />
         <p>Dari kesimpulan code diatas </p>
         <li> CSS </li>
->>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
       </div>
 
       <div className="ab_block">
         <h2>Metode 2 Styled Component</h2>
-<<<<<<< HEAD
-        <p> Lakukan penginstalan pada npm untuk menginstall styled component pada react </p>
-        <MDEditor.Markdown source="`$ npm install styled-components `" />
-        <ReactEmbedGist
-          gist="RFebrians/41d0155c41cb222ec00ed668558ab7d1"
-          file="null"
-        />
-        <br></br>
-        <p>Kesimpulan Styled Component </p>
-        <li>Styled Component biasanya ditaruh pada bawah setelah file ekspor dalam file yang sama </li>
-=======
         <p> Jalankan Command berikut pada Command Line atau terminal </p>
         <ReactEmbedGist
           gist="RFebrians/41d0155c41cb222ec00ed668558ab7d1"
@@ -90,7 +63,6 @@ export default function Post3() {
           dibuat . Tetapi sebelum memulai mari kita pelajari fundamentalnya
           secara singkat .{" "}
         </h4>
->>>>>>> 0df16a2959338b5c7e557be9e9969cc0b17b8f87
       </div>
     </HelmetProvider>
   );
