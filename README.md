@@ -6,12 +6,12 @@ A template React to Kickstart your App
 
 ### Content :
 
-> It used React Helmet to optimized SEO (also you don't need manually to changed the component)
-> Optimized Route
-> Dark / Light Theme
-> Page Example for your content
-> Smooth Transition almost like parallax
-> Can be purposed for : gallery , portfolio , blog , or something
+- It used React Helmet to optimized SEO (also you don't need manually to changed the component)
+- Optimized Route
+- Dark / Light Theme
+- Page Example for your content
+- Smooth Transition almost like parallax
+- Can be purposed for : gallery , portfolio , blog , or something
 
 ## Visit live Development
 
