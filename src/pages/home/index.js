@@ -31,7 +31,7 @@ export default function Home() {
                       introdata.animated.second,
                       5000,
                       introdata.animated.third,
-                      5000,
+                      5000
                     ]}
                     loop={Infinity}
                     wrapper="p"
@@ -41,7 +41,7 @@ export default function Home() {
                 <div className="intro_btn-action pb-5">
                   <Link to="/index" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      Index
+                      Content
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -49,7 +49,7 @@ export default function Home() {
                   </Link>
                   <Link to="/post">
                     <div id="button_h" className="ac_btn btn">
-                      Demo Apps
+                      Statistic
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

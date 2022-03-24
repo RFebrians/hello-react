@@ -7,7 +7,7 @@ import {
   meta,
   worktimeline,
   tech,
-  services,
+  services
 } from "../../content_option";
 
 export default function Post() {
@@ -16,21 +16,18 @@ export default function Post() {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-            <title> Demo Apps | {meta.title}</title>
-          <meta
-            name="description"
-            content={meta.description}
-          />
+          <title> React Template | {meta.title}</title>
+          <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Demo Apps</h1>
+            <h1 className="display-4 mb-4">Title</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
         <Row className="mb-5 mt-1">
           <Col lg="5">
-            <h2 className="display-4 mb-4">React Native Handbook</h2>
+            <h2 className="display-4 mb-4">Your Content</h2>
             <hr className="t_border my-2 ml-0 text-left" />
           </Col>
         </Row>
@@ -59,7 +56,7 @@ export default function Post() {
                     <div
                       className="progress-bar"
                       style={{
-                        width: `${data.value}%`,
+                        width: `${data.value}%`
                       }}
                     >
                       <div className="progress-value">{data.value}%</div>

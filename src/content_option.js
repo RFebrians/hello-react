@@ -1,25 +1,30 @@
+/* This is metadata section for SEO
+Probably you can edit this section without manually editing the component
+*/
+
+// metadata
 const logotext = "React Project";
 const meta = {
   title: "React Project",
-  description:
-    "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin"
+  description: "Your Description"
 };
 
+// hero animated for intro
 const introdata = {
   title: "Welcome to",
   animated: {
-    first: "React JS",
-    second: "React Native",
-    third: "React Libraries"
+    first: "React Template",
+    second: "React JS",
+    third: "React Native"
   },
   description: "To get started , please click button below",
   img_url: "https://wallpaperaccess.com/full/3949076.jpg"
 };
 
+// data section , for portfolio or about me
 const dataabout = {
-  title: "React Native Handbook",
-  aboutme:
-    "Created using React Native framework , Rendering Native View with Mobile Apps . "
+  title: "Title",
+  aboutme: "About . "
 };
 const worktimeline = [
   {
@@ -41,104 +46,104 @@ const worktimeline = [
 
 const tech = [
   {
-    name: "React Native",
+    name: "Progress 1",
     value: 98
   },
   {
-    name: "Wordpress CMS",
+    name: "Progress 2",
     value: 85
   },
   {
-    name: "MySql",
+    name: "Progress 3",
     value: 50
   },
   {
-    name: "Apache Server",
+    name: "Progress 4",
     value: 95
   }
 ];
 
 const services = [
   {
-    title: "Target Rendering URL",
-    description: "https://research.forwardproject.xyz/"
+    title: "Site",
+    description: "https://yoururl.com"
   },
   {
-    title: "GitHub",
-    description: "https://github.com/RFebrians/React-Native-Handbook"
+    title: "Site",
+    description: "https://yoururl.com"
   },
   {
-    title: "Live Demo , Expo Snack ",
-    description: "https://snack.expo.dev/@zegveld/delicious-pretzels"
+    title: "Site ",
+    description: "https://yoururl.com"
   }
 ];
 
+// showcase your content here
 const dataportfolio = [
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
-    desctiption: "1. Introducing React ",
+    desctiption: "Title ",
     link: "../post2"
   },
   {
-    img:
-      "https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
-    desctiption: "2. Fundamental",
-    link: "../post3"
+    img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+    desctiption: "Title",
+    link: "../post2"
   },
   {
     img: "https://miro.medium.com/max/2000/1*-Ijet6kVJqGgul6adezDLQ.png",
-    desctiption: "Hooks",
-    link: "../post3"
-  },
-  {
-    img:
-      "https://images.unsplash.com/photo-1526498460520-4c246339dccb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-    desctiption: "Advanced Hooks ",
-    link: "../post3"
+    desctiption: "Title",
+    link: "../post2"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
-    desctiption: "Create React App",
-    link: "../post3"
+    desctiption: "Title",
+    link: "../post2"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
-    desctiption: "React Performance",
+    desctiption: "Title",
+    link: "#"
+  },
+  {
+    img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+    desctiption: "Title",
     link: "#"
   },
 
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
-    desctiption: "Testing React Apps",
+    desctiption: "Title",
     link: "#"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
-    desctiption: "React Suspense",
+    desctiption: "Title",
     link: "#"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
-    desctiption: "Build an Epic React Apps",
+    desctiption: "Title",
     link: "#"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
-    desctiption: "React-Native Handbook",
+    desctiption: "Title",
     link: "#"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
-    desctiption: "Glosarium",
+    desctiption: "Title",
     link: "#"
   },
   {
     img: "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
-    desctiption: "Credits",
+    desctiption: "Title",
     link: "#"
   }
 ];
 
+// contact
 const contactConfig = {
   YOUR_EMAIL: "name@domain.com",
   YOUR_FONE: "(555)123-4567",
