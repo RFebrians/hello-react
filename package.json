@@ -1,7 +1,8 @@
 {
-  "name": "hello-2297",
+  "name": "hello-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rfebrians.github.io/hello-react/",
   "dependencies": {
     "@steveeeie/react-page-transition": "^1.2.1",
     "@testing-library/jest-dom": "^5.11.4",
@@ -10,6 +11,7 @@
     "@uiw/react-md-editor": "^3.4.12",
     "bootstrap": "^4.6.0",
     "emailjs-com": "^2.6.4",
+    "gh-pages": "^3.2.3",
     "gist": "0.2.0",
     "react": "^17.0.1",
     "react-animated-cursor": "^2.1.8",
@@ -30,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
