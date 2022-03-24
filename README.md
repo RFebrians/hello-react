@@ -2,6 +2,8 @@
 
 A template React to Kickstart your App
 
+![Screenshot](Preview.png)
+---
 ### Content :
 
 - It used React Helmet to optimized SEO (also you don't need manually to changed the component)
@@ -17,7 +19,9 @@ A template React to Kickstart your App
 
 ## Deployment
 
+You can use GitHub Page , Vercel , Netlify or Heroku
 
+This is a static page for your content .
 
 ## Citation
 
