@@ -1,7 +1,5 @@
 # hello-react
 
-> bootstraped using created-react-app
-
 A template React to Kickstart your App
 
 ### Content :
@@ -19,7 +17,7 @@ A template React to Kickstart your App
 
 ## Deployment
 
-Soon
+
 
 ## Citation
 
